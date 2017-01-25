@@ -1,4 +1,4 @@
-FROM sameersbn/gitlab:8.13.0
+FROM sameersbn/gitlab:8.13.1
 
 COPY sshd-entrypoint.sh /sbin/sshd-entrypoint.sh
 RUN chmod 755 /sbin/sshd-entrypoint.sh
